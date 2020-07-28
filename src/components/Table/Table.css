@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table th {
+  text-align: left;
+  padding: 8px;
+}
+.table th .icon {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  position: relative;
+  bottom: 25px;
+  margin-left: auto;
+}
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.table td {
+  padding: 8px;
+}
+
+.sort_td_up, .sort_td_down {
+  font-size: 25px;
+}
+
+.dont_sort {
+  font-size: 25px;
+}
+
+.none {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=Table.css.map */
